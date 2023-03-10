@@ -1,4 +1,4 @@
-# PEMOGRAMAAN WEB 2
+# PEMROGRAMAAN WEB 2
 
 Ainul Yaqin (312010423)
 
@@ -31,7 +31,7 @@ Berikut codingan yang saya gunakan untuk membuat sebuah dokumen dasar dengan jud
 
 Setelah membuat dasarnya seperti diatas, selanjutnya tambahkan sebuah kode untuk membuat Box Element dengan tag div seperti dibawah ini:
 
-![menambahkan_gambar](img/BOX%20ELEMENT%20DIV.png)
+![menambahkan_gambar](img/2.png)
 
 Dengan menggunakan kode berikut:
 
@@ -42,7 +42,7 @@ Dengan menggunakan kode berikut:
     <div class="div3">Div 3</div>
 </section>
 ```
-![menambahkan_gambar](img/DIV%20WARNA.png)
+![menambahkan_gambar](img/3.png)
 
 Dan jika kalian ingin divnya lebih berwarna atau lebih bervariasi lagi seperti gambar diatas, kalian dapat menggunakan kode dibawah ini pada bagian headnya untuk membuat sebuah deklarasi CSS Float Property.
 
@@ -77,7 +77,7 @@ Setelah membuat Box Element dengan tag div yang sudah di variasikan, selajutnya 
 </section>
 ```
 
-![menambahkan_gambar](img/DIV%204.png)
+![menambahkan_gambar](img/4.png)
 
 Kemudian untuk mengaturnya menjadi seperti gambar diatas, kalian dapat memasukan kode berikut:
 
@@ -93,7 +93,7 @@ Kemudian untuk mengaturnya menjadi seperti gambar diatas, kalian dapat memasukan
 
 Untuk dapat membuat sebuah Layout Sederhana, langkah awal yang perlu dilakuan ialah membuat sebuah sebuah folder baru yang kemudian didalamnya terdapat sebuah file baru berbasis html dan juga css.
 
-![menambahkan_gambar](img/LAYOUT%20AWAL.png)
+![menambahkan_gambar](img/5.png)
 
 Berikut kode yang saya gunakan untuk membuat folder baru tersebut yang nantinya akan nampak seperti gambar diatas.
 
@@ -131,9 +131,7 @@ Berikut kode yang saya gunakan untuk membuat folder baru tersebut yang nantinya 
 </html>
 ```
 
-![menambahkan_gambar](img/LAYOUT%20SEDERHANA.png)
-
-Setelahnya, kalian dapat menambahkan kode lainnya pada file CSS untuk dapat membuat layout diatas dengan kode berikut:
+Setelah itu, kalian dapat menambahkan kode lainnya pada file CSS dengan kode berikut:
 
 ```css
 /* import google font */
@@ -171,7 +169,7 @@ header h1 {
 
 ## MEMBUAT NAVIGASI
 
-![menambahkan_gambar](img/NAVIGASI.png)
+![menambahkan_gambar](img/6.png)
 
 Untuk dapat melakukan sebuah pengaturan navigasi seperti diatas kalian dapat menambahkan kode berikut pada file CSS sebelumnya.
 
@@ -197,7 +195,7 @@ nav a:hover {
 
 ## PEMBUATAN HERO PANEL
 
-![menambahkan_gambar](img/HERO%20PANEL.png)
+![menambahkan_gambar](img/7.png)
 
 Dalam pembuatan Hero Panel kalian perlu memasukan kode Html dan juga CSS seperti berikut ini:
 
@@ -256,7 +254,7 @@ pretium ac.</p>
 
 ## PEMBUATAN SIDEBAR WIDGET
 
-![menambahkan_gambar](img/SIDEBAR%20AND%20WIDGET.png)
+![menambahkan_gambar](img/8.png)
 
 Untuk menambahkan element lain dalam sidebar dan sebuah Widget CSS seperti gambar diatas, kalian dapat menggunakan kode berikut:
 
@@ -313,25 +311,13 @@ line-height:25px;
 }
 ```
 
-## PENGATURAN FOOTER
-
-![menambahkan_gambar](img/FOOTER.png)
-
-Gunakan kode berikut ini untuk mendapatkan hasil seperti diatas.
 
 ```css
-/* footer */
-footer {
-    clear:both;
-    background-color:#c67eb0;
-    padding:20px;
-    color:rgb(39, 3, 3);
-}
-```
+
 
 ## PENAMBAHAN ELEMEN LAIN PADA MAIN CONTENT
 
-![menambahkan_gambar](img/MAIN%20CONTENT.png)
+![menambahkan_gambar](img/9.png)
 
 Penambahan elemen lainnya pada Main Content seperti gambar diatas dibutuhkan sebuah kode html dan CSS seperti dibawah ini:
 
@@ -411,7 +397,7 @@ box img {
 
 ## PENAMBAHAN CONTENT ARTIKEL
 
-![menambahkan_gambar](img/CONTENT%20ARTIKEL.png)
+![menambahkan_gambar](img/10.1.png)
 
 Untuk dapat membuat sebuah Content Artikel atau sebuah poit penting dalam sebuah artikel seperti gambar diatas, dibutuhkan sebuah kode Html dan juga CSS seperti dibawah ini:
 
@@ -463,4 +449,4 @@ pretium ac.</p>
 ```
 ## SEPERTI INILAH HASIL AKHIRNYA
 
-![menambahkan_gambar](img/HASIL%20AKHIR.png)
+![menambahkan_gambar](img/10.png)
