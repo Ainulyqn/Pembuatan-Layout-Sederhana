@@ -51,17 +51,17 @@ Dan jika kalian ingin divnya lebih berwarna atau lebih bervariasi lagi seperti g
     div {
         float:left;
         padding: 10px;
-    }
-    .div1 {
-        background: rgb(237, 160, 176);
-    }
-    .div2 {
-        background: rgb(210, 100, 135);
-    }
-    .div3 {
-        background: rgb(170, 54, 100);
-    }
-</style>
+        }
+        .div1 {
+            background: red;
+        }
+        .div2 {
+            background: yellow;
+        }
+        .div3 {
+            background: green;
+        }
+    </style>
 ```
 
 ## PENGATURAN CLEARFIX ELEMENT
@@ -124,7 +124,7 @@ Berikut kode yang saya gunakan untuk membuat folder baru tersebut yang nantinya 
             <aside id="sidebar"></aside>
         </section>
         <footer>
-            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+            <p>&copy; 2021 - Ainul Yaqin</p>
         </footer>
     </div>
 </body>
@@ -149,21 +149,21 @@ body {
     line-height:1;
     font-size:100%;
     font-family:'Open Sans', sans-serif;
-    color:#8c2d2d;
+    color:#5a5a5a;
 }
 #container {
     width: 980px;
     margin: 0 auto;
-    box-shadow: 0 0 1em #ac3331;
+    box-shadow: 0 0 1em #cccccc;
 }
-    
+
 /* header */
 header {
     padding: 20px;
 }
 header h1 {
     margin: 20px 10px;
-    color: #842626;
+    color: #b5b5b5;
 }
 ```
 
@@ -177,7 +177,7 @@ Untuk dapat melakukan sebuah pengaturan navigasi seperti diatas kalian dapat men
 /* navigasi */
 nav {
     display: block;
-    background-color: #9a2451;
+    background-color: #1f5faa;
 }
 nav a {
     padding: 15px 30px;
@@ -189,7 +189,7 @@ nav a {
 }
 nav a.active,
 nav a:hover {
-    background-color: #c64e78;
+    background-color: #2b83ea;
 }
 ```
 
@@ -213,7 +213,7 @@ pretium ac.</p>
 ```css
 /* Hero Panel */
 #hero {
-    background-color: #f0d3de;
+    background-color: #e4e4e5;
     padding: 50px 20px;
     margin-bottom: 20px;
 }
@@ -282,32 +282,32 @@ pharetra est nunc, nec pretium nunc pretium ac.</p>
 ```css
 /* widget */
 .widget-box {
-    border:1px solid rgb(0, 0, 0);
-    margin-bottom:20px;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
 }
 .widget-box .title {
-    padding:10px 16px;
-    background-color:#902f46;
-    color:rgb(255, 255, 255);
+    padding: 10px 16px;
+    background-color: #428bca;
+    color: #fff;
 }
 .widget-box ul {
     list-style-type:none;
 }
 .widget-box li {
-    border-bottom:1px solid rgb(216, 161, 181);
+    border-bottom: 1px solid  #eee;
 }
 .widget-box li a {
-padding:10px 16px;
-color:rgb(100, 18, 18);
-display:block;
-text-decoration:none;
+    padding: 10px 16px;
+    color: #333;
+    display: block;
+    text-decoration: none;
 }
 .widget-box li:hover a {
-background-color:rgb(235, 188, 206);
+    background-color: #eee;
 }
 .widget-box p {
-padding:15px;
-line-height:25px;
+    padding: 15px;
+    line-height: 25px;
 }
 ```
 
@@ -425,7 +425,7 @@ pretium ac.</p>
 ```css
 .divider {
     border:0;
-    border-top:5px solid #d19f9f;
+    border-top:1px solid #eeeeee;
     margin:40px 0;
 }
 /* entry */
@@ -446,6 +446,7 @@ pretium ac.</p>
 .entry .right-img {
     float: right;
 }
+
 ```
 ## SEPERTI INILAH HASIL AKHIRNYA
 
